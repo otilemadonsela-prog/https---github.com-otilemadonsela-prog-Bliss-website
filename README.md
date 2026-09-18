@@ -188,3 +188,12 @@ Tablet
 Mobile
 <img width="768" height="720" alt="Galaxy A55" src="https://github.com/user-attachments/assets/09a6649a-a321-4035-b856-8f7fd8e49e30" />
 
+
+
+References:
+Afrihost,2026. Domain. [Online]. Available at https://www.afrihost.com/domains . Accessed on 19th August 2026
+Bliss Doughnuts,2026 interview with owners of the business regarding their website operation’s needs. Conducted by O. Madonsela 11th August 2026
+Freepink n.d images. [Online]. Available at https://www.freepik.com. [accessed on14th -16th     August 2026]
+Google font, n.d. Dafont. Online. Available at https://www.dafont.com. [accessed on 18th August 2026]
+Instagram, 2026. Bliss Doughnuts. [Online]. Available at:https://www.instagram.com/bliss.donuts_official":  2026. . [Accessed on  1th September 2026].
+
