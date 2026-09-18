@@ -174,3 +174,5 @@ This page is for customers to be able to contact us, it will include:
 •	phone numbers and email addresses
 •	business opening hours 
 •	business address
+Responsiveness Testing and Iteration Across Devices
+These screenshots show how the site responds on common devices after iterative testing and adjustments.
