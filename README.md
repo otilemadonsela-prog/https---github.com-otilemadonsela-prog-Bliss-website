@@ -176,3 +176,26 @@ This page is for customers to be able to contact us, it will include:
 •	business address
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments.
+
+
+Responsiveness Testing and Iteration Across Devices
+These screenshots show how the site responds on common devices after iterative testing and adjustments.
+
+Desktop
+<img width="771" height="703" alt="Surface Pro 10" src="https://github.com/user-attachments/assets/fa074f3a-25ab-4bf6-9cdd-c0807cb97074" />
+
+Tablet
+<img width="735" height="732" alt="iPad Pro 13" src="https://github.com/user-attachments/assets/0d8b0b95-cfac-467b-ae89-08b611ad7ba9" /><img width="707" height="642" alt="iPad mini" src="https://github.com/user-attachments/assets/74cdb99a-7e9b-4388-96b0-56b3f6c63101" />
+
+Mobile
+<img width="768" height="720" alt="Galaxy A55" src="https://github.com/user-attachments/assets/09a6649a-a321-4035-b856-8f7fd8e49e30" />
+
+
+
+References:
+Afrihost,2026. Domain. [Online]. Available at https://www.afrihost.com/domains . Accessed on 19th August 2026
+Bliss Doughnuts,2026 interview with owners of the business regarding their website operation’s needs. Conducted by O. Madonsela 11th August 2026
+Freepink n.d images. [Online]. Available at https://www.freepik.com. [accessed on14th -16th     August 2026]
+Google font, n.d. Dafont. Online. Available at https://www.dafont.com. [accessed on 18th August 2026]
+Instagram, 2026. Bliss Doughnuts. [Online]. Available at:https://www.instagram.com/bliss.donuts_official":  2026. . [Accessed on  1th September 2026].
+
