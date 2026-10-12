@@ -25,9 +25,9 @@ h1 {
   margin-bottom: 20px;
 }
 .hero img {
-  width: 450px; /* MEDIUM - change to 350px if you want smaller, 550px if bigger */
+  width: 450px; 
   height: auto;
-  margin: 0 auto 20px auto; /* in the center */
+  margin: 0 auto 20px auto;
   border-radius: 15px;
   display: block;
 
@@ -345,3 +345,11 @@ input:focus, textarea:focus { border-color:#ff6b9d; outline:none; }
   border-radius:30px; font-size:18px; font-weight:bold; cursor:pointer; margin-top:20px;
 }
 .order-btn:hover { background:#e8437f; }
+h1{ color:#ff69b4; text-align:center; }
+.hero{ display:flex; flex-wrap:wrap; gap:20px; } 
+.product-card{ transition: transform 0.3s; }
+.product-card:hover{ transform: scale(1.05); }
+@keyframes fadeIn{ from{opacity:0} to{opacity:1} }
+@media(max-width:768px){ .two-colums, .vision-mission{ flex-direction:column; } }
+/* Internal Linking style */
+a{ color:#ff69b4; text-decoration:none; } a:hover{ text-decoration:underline; }
