@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://otilemadonsela-prog.github.io/Bliss-website/sitemap.xml
