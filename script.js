@@ -50,4 +50,7 @@ function validateContact(e){
   // Actual email sending
   window.location.href=`mailto:blissdoughnut@gmail.com?subject=${encodeURIComponent(type+' from '+name)}&body=${encodeURIComponent(body)}`;
   return true;
+}function validateContact(e){
+ e.preventDefault();
+ document.getElementById('cSuccess').innerText = "Thank you! Your message was sent to blissdoughnuts@gmail.com. We will reply within 24 hours.";
 }

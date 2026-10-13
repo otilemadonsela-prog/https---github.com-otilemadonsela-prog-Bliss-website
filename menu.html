@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
   <head>
 <meta charset="UTF-8">
@@ -7,15 +7,10 @@
 <title>Bliss Doughnuts | Fresh Handmade Doughnuts Made With Love in Springs</titl>
 <meta name="description" content="Bliss Doughnuts started in 2021 in Springs, Johannesburg. Fresh gourmet doughnuts daily, handmade, proudly South African with same-day delivery.">
 <meta name="keywords" content="Bliss Doughnuts, gourmet doughnuts Johannesburg, Springs doughnuts, order doughnuts online, birthday doughnuts, wedding doughnuts">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css">
 </head>
-
-</head>
-<body> 
     <div class="brand">
-        <a href="index.html">Bliss Doughnuts|Taste The Love</a>
-        <link rel="stylesheet" href="style.css">
+        <a href="menu.html">Menu| Bliss Doughnuts- Wedding, Birthday, Matric Dance</a>
     </div>
     <nav>
         <ul>
@@ -39,16 +34,15 @@
             </ul>
         </nav>
     </main>
-    <body>
 <h3>Shop</h3>
 <hr>
 
 <h2>Shop Birthdays and Parties</h2>
 <div class="category">
-  <div class="product">
+  <div class="product" data-name="spider man birthday">
      <img src="images/spider-man-themed-doughnuts.jpg" alt="Spider-Man themed doughnuts for kids birthdays - Bliss Doughnut Johannesburg" width="150" loading="lazy">
     <h3>Spider Man Themed Doughnuts</h3>
-    <p>12 Gourment Doughnut</p>
+    <p>12 Gourmet Doughnut</p>
     <p>R200</p>
     <a href="order.html">Add Order</a>
   </div>
@@ -67,36 +61,40 @@
     <a href="order.html">Add Order</a>
   </div>
 </div>
-
 <h2>Shop Weddings and Everything Love</h2>
+<input type="text" id="searchInput" placeholder="Search doughnuts... birthdays, weddings, matric..." onkeyup="searchDoughnuts()">
+<p id="searchFeedback"></p>
+
 <div class="category">
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_formal-wedding-doughnuts_bxL7Jpx5Y2.png" alt="">
+  <div class="product occasion-item" data-name="formal weddings">
+    <img src="images/formal-wedding-doughnuts.jpg" alt="Formal wedding doughnuts 12 or 24 pack from Bliss Doughnuts Springs Johannesburg">
     <h3>Formal Weddings</h3>
     <p>12 or 24 Garment Doughnut</p>
-    <p>12 - R220, 24 - R 400</p>
+    <p>R220 - R400</p>
     <a href="order.html">Add Order</a>
   </div>
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_fun-wedding-doughnuts_UP92Gcewny.png" alt="">
+
+  <div class="product occasion-item" data-name="fun wedding small weddings">
+    <img src="images/fun-wedding-doughnuts.jpg" alt="Fun small wedding doughnuts for intimate weddings Bliss Doughnuts">
     <h3>Small Weddings</h3>
     <p>12 or 24 Garment Doughnut</p>
-    <p>12 - R220, 24 - R400</p>
+    <p>R220 - R400</p>
     <a href="order.html">Add Order</a>
   </div>
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_roses-and-gold-doughnuts_VXobrhxMMU.jpg" alt="">
+
+  <div class="product occasion-item" data-name="roses and gold">
+    <img src="images/roses-and-gold-doughnuts.jpg" alt="Roses and gold gourmet doughnuts for weddings Bliss">
     <h3>Roses and Gold</h3>
-    <p>12, 24 Gourment Doughnut</p>
-    <p>12 - R200, 24 - R380</p>
+    <p>12, 24 Gourmet Doughnut</p>
+    <p>R200 - R800</p>
     <a href="order.html">Add Order</a>
   </div>
 </div>
 
 <h2>Say it with Bliss</h2>
 <div class="category">
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_doughnuts-that-have-a-mes_yiRetnYPW9.png" alt="">
+  <div class="product occasion-item" data-name="message doughnuts custom message">
+    <img src="images/message-doughnuts.jpg" alt="Custom message glazed doughnut with handwritten message Bliss">
     <p>Message of Choice</p>
     <p>12 Glazed Doughnut with hand written message</p>
     <p>R220</p>
@@ -104,44 +102,29 @@
   </div>
 </div>
 
-<h2>Baby Showers and Gender reveals</h2>
-<div class="category">
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_baby-shower-and-gender-re_UP9TBHqwny.jpg" alt="">
-    <h3>Baby Shower</h3>
-    <p>12 Gourment Doughnuts</p>
-    <p>R200</p>
-    <a href="order.html">Add Order</a>
-  </div>
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_baby-shower-and-gender-re_EbKyRp8uuO.png" alt="">
-    <h3>Gender Reveal</h3>
-    <p>12 Gourment Doughnuts</p>
-    <p>R200 Normal</p>
-    <p>R290 Filled Rings</p>
-    <a href="order.html">Add Order</a>
-  </div>
-</div>
-
 <h2>Coperate and Formal Events</h2>
 <div class="category">
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_summit-2026-doughnuts_N2GoEcp6D9.jpg" alt="">
+  <div class="product occasion-item" data-name="summit 2026 corporate">
+    <img src="images/summit-2026-doughnuts.jpg" alt="Summit 2026 corporate gourmet doughnuts for formal events Bliss">
     <h3>Summit 2026</h3>
-    <p>12 Gourment Doughnuts</p>
+    <p>12 Gourmet Doughnuts</p>
     <p>R220</p>
     <a href="order.html">Add Order</a>
   </div>
-  <div class="product">
-    <img src="c:\Users\otile\Downloads\magnific_matric-dance-doughnuts_796MmZlJAL.png" alt="">
+
+  <div class="product occasion-item" data-name="matric dance">
+    <img src="images/matric-dance-doughnuts.jpg" alt="Matric dance gourmet doughnuts 12 pack Bliss Doughnuts Johannesburg">
     <h3>Matric Dance</h3>
-    <p>12 Gourment Doughnuts</p>
+    <p>12 Gourmet Doughnuts</p>
     <p>R220</p>
     <a href="order.html">Add Order</a>
   </div>
 </div>
 
+<script src="script.js"></script>
 </body>
+</html>
+
 
 
 
